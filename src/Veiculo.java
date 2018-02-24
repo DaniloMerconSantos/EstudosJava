@@ -26,4 +26,8 @@ public class Veiculo {
     public void setTopSpeed(Double topSpeed) {
         this.topSpeed = topSpeed;
     }
+
+    public void methodOverriding() {
+        System.out.println("Este é um metodo da class pai orverriding.");
+    }
 }
